@@ -1,1 +1,9 @@
+# Code that calculate Tax:
+subtotal = int(input("Please enter the amount: "))
+tax_percentage = .05
+tax_amount = subtotal * tax_percentage
+print(f"Total tax is",tax_amount)
+grand_total = tax_percentage + subtotal
+print(f"Total Amount DUE Today after Tax is: ${grand_total}")
+print("Thank you for shopping with us today, please come back again")
 
